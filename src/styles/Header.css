@@ -1,0 +1,30 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+  }
+  
+  .header nav a {
+    margin: 0 10px;
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .header nav a:hover {
+    color: #ddd;
+  }
+  
+  @media (max-width: 600px) {
+    .header {
+      flex-direction: column;
+      text-align: center;
+    }
+    .header nav a {
+      margin: 5px 0;
+    }
+  }
+  

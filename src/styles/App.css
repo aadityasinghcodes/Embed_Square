@@ -1,0 +1,150 @@
+
+/* General Styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  body {
+    background-color: #f0f0f0;
+    color: #333;
+  }
+  
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  /* Header Styles */
+  .header {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .header h1 {
+    margin: 0;
+    font-size: 24px;
+  }
+  
+  .header .nav-links {
+    list-style: none;
+    display: flex;
+  }
+  
+  .header .nav-links li {
+    margin-left: 20px;
+  }
+  
+  .header .nav-links li a {
+    color: white;
+    font-size: 18px;
+    transition: color 0.3s;
+  }
+  
+  .header .nav-links li a:hover {
+    color: #ddd;
+  }
+  
+  /* Container Styles */
+  .container {
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  /* Login Container Styles */
+  .login-container,
+  .dashboard-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+  }
+  
+  /* Form Styles */
+  form {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  form h2 {
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .input-field-container {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+  }
+  
+  button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #333;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #555;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 600px) {
+    form {
+      padding: 15px;
+    }
+    
+    h2 {
+      font-size: 24px;
+    }
+    
+    button {
+      font-size: 14px;
+    }
+    
+    .header h1 {
+      font-size: 20px;
+    }
+    
+    .header .nav-links li a {
+      font-size: 16px;
+    }
+    
+    .dashboard-container p {
+      font-size: 16px;
+    }
+    
+    .dashboard-container button {
+      font-size: 14px;
+    }
+  }
+  

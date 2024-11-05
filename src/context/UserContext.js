@@ -28,9 +28,9 @@ const UserProvider = ({ children }) => {
 
   const authenticateUser = (username, password) => {
     const users = [
-      { username: 'user1', password: 'password1', name: 'User One', role: 'Admin', designation: 'Manager' },
-      { username: 'user2', password: 'password2', name: 'User Two', role: 'User', designation: 'Developer' },
-      { username: 'user3', password: 'password3', name: 'User Three', role: 'User', designation: 'Designer' },
+      { username: 'Aaditya', password: 'Aaditya23', name: 'Aaditya', role: 'Admin', designation: 'Manager' },
+      { username: 'Subrato', password: 'Subaru1', name: 'Subrato', role: 'User', designation: 'Developer' },
+      { username: 'Ravi', password: 'Ravi12', name: 'RaVi', role: 'User', designation: 'Designer' },
     ];
     
     const user = users.find(user => user.username === username && user.password === password);
